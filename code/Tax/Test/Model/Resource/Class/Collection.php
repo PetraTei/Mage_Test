@@ -6,16 +6,16 @@
  @copyright   Copyright (c) 2013 Mage+ Ltd. (http://mageplus.org)
  @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
 */
-class Mage_Tax_Test_Model_Resource_Calculation_Rule_Collection extends Mage_Test_Unit_Case
+class Mage_Tax_Test_Model_Resource_Class_Collection extends Mage_Test_Unit_Case
 {
     /**
-     * @var Mage_Tax_Model_Resource_Calculation_Rule_Collection
+     * @var Mage_Tax_Model_Resource_Class_Collection
      */
     protected $_model = null;
 
     protected function setUp()
     {
-        $this->_model = Mage::getModel('Mage_Tax_Model_Resource_Calculation_Rule_Collection');
+        $this->_model = Mage::getModel('Mage_Tax_Model_Resource_Class_Collection');
     }
 
     protected function tearDown()
@@ -26,39 +26,23 @@ class Mage_Tax_Test_Model_Resource_Calculation_Rule_Collection extends Mage_Test
     /**
      * @todo
      */
-    public function testJoinCalculationData()
-    {
-        $this->markTestIncomplete('This test has not been implemented yet.');
-    }
-
-    /**
-     * @todo
-     */
-    public function testAddProductTaxClassesToResult()
-    {
-        $this->markTestIncomplete('This test has not been implemented yet.');
-    }
-
-    /**
-     * @todo
-     */
-    public function testAddCustomerTaxClassesToResult()
-    {
-        $this->markTestIncomplete('This test has not been implemented yet.');
-    }
-
-    /**
-     * @todo
-     */
-    public function testAddRatesToResult()
-    {
-        $this->markTestIncomplete('This test has not been implemented yet.');
-    }
-
-    /**
-     * @todo
-     */
     public function testSetClassTypeFilter()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testToOptionArray()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testToOptionHash()
     {
         $this->markTestIncomplete('This test has not been implemented yet.');
     }

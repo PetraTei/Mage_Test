@@ -1,9 +1,11 @@
 <?php
-/**
- * @copyright   Copyright (c) 2013 Mage+ Ltd (http://mageplus.org)
- * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
- */
 
+/**
+ @package     Mage_Test
+ @subpackage  Tax
+ @copyright   Copyright (c) 2013 Mage+ Ltd. (http://mageplus.org)
+ @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+*/
 class Mage_Tax_Test_Model_Calculation extends Mage_Test_Unit_Case
 {
     /**
@@ -13,7 +15,8 @@ class Mage_Tax_Test_Model_Calculation extends Mage_Test_Unit_Case
 
     protected function setUp()
     {
-        $this->_model = new Mage_Tax_Model_Calculation;
+        //$this->_model = new Mage_Tax_Model_Calculation;
+        $this->_init('Mage_Tax_Model_Calculation');
     }
 
     protected function tearDown()

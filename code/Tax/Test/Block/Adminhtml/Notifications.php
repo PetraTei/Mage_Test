@@ -6,16 +6,16 @@
  @copyright   Copyright (c) 2013 Mage+ Ltd. (http://mageplus.org)
  @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
 */
-class Mage_Tax_Test_Model_Resource_Calculation_Rule_Collection extends Mage_Test_Unit_Case
+class Mage_Tax_Test_Block_Adminhtml_Notification extends Mage_Test_Unit_Case
 {
     /**
-     * @var Mage_Tax_Model_Resource_Calculation_Rule_Collection
+     * @var Mage_Tax_Block_Adminhtml_Notification
      */
     protected $_model = null;
 
     protected function setUp()
     {
-        $this->_model = Mage::getModel('Mage_Tax_Model_Resource_Calculation_Rule_Collection');
+        $this->_model = Mage::getModel('Mage_Tax_Block_Adminhtml_Notification');
     }
 
     protected function tearDown()
@@ -26,7 +26,7 @@ class Mage_Tax_Test_Model_Resource_Calculation_Rule_Collection extends Mage_Test
     /**
      * @todo
      */
-    public function testJoinCalculationData()
+    public function testGetStoresWithWrongDisplaySettings()
     {
         $this->markTestIncomplete('This test has not been implemented yet.');
     }
@@ -34,7 +34,7 @@ class Mage_Tax_Test_Model_Resource_Calculation_Rule_Collection extends Mage_Test
     /**
      * @todo
      */
-    public function testAddProductTaxClassesToResult()
+    public function testCheckDisplaySettings()
     {
         $this->markTestIncomplete('This test has not been implemented yet.');
     }
@@ -42,7 +42,7 @@ class Mage_Tax_Test_Model_Resource_Calculation_Rule_Collection extends Mage_Test
     /**
      * @todo
      */
-    public function testAddCustomerTaxClassesToResult()
+    public function testGetWebsitesWithWrongDiscountSettings()
     {
         $this->markTestIncomplete('This test has not been implemented yet.');
     }
@@ -50,7 +50,7 @@ class Mage_Tax_Test_Model_Resource_Calculation_Rule_Collection extends Mage_Test
     /**
      * @todo
      */
-    public function testAddRatesToResult()
+    public function testGetIgnoreTaxNotificationUrl()
     {
         $this->markTestIncomplete('This test has not been implemented yet.');
     }
@@ -58,7 +58,15 @@ class Mage_Tax_Test_Model_Resource_Calculation_Rule_Collection extends Mage_Test
     /**
      * @todo
      */
-    public function testSetClassTypeFilter()
+    public function testGetInfoUrl()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testGetManageUrl()
     {
         $this->markTestIncomplete('This test has not been implemented yet.');
     }

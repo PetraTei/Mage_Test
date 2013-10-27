@@ -1,27 +1,11 @@
 <?php
-/**
- * Magento
- *
- * NOTICE OF LICENSE
- *
- * This source file is subject to the Open Software License (OSL 3.0)
- * that is bundled with this package in the file LICENSE.txt.
- * It is also available through the world-wide-web at this URL:
- * http://opensource.org/licenses/osl-3.0.php
- * If you did not receive a copy of the license and are unable to
- * obtain it through the world-wide-web, please send an email
- * to license@magentocommerce.com so we can send you a copy immediately.
- *
- * DISCLAIMER
- *
- * Do not edit or add to this file if you wish to upgrade Magento to newer
- * versions in the future. If you wish to customize Magento for your
- * needs please refer to http://www.magentocommerce.com for more information.
- *
- * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
- * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
- */
 
+/**
+ @package     Mage_Test
+ @subpackage  Tax
+ @copyright   Copyright (c) 2013 Mage+ Ltd. (http://mageplus.org)
+ @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+*/
 class Mage_Tax_Test_Model_Config extends Mage_Test_Unit_Case
 {
     /**
@@ -40,10 +24,394 @@ class Mage_Tax_Test_Model_Config extends Mage_Test_Unit_Case
     }
 
     /**
-     * @magentoConfigFixture current_store tax/calculation/price_includes_tax 1
+     * @todo
      */
-    public function testPriceIncludesTaxNonDefault()
+    public function testPriceIncludesTax()
     {
-        $this->assertTrue($this->_model->priceIncludesTax());
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testApplyTaxAfterDiscount()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testGetPriceDisplayType()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDiscountTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testGetCalculationSequence()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testSetNeedUsePriceExcludeTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testGetNeedUsePriceExcludeTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testSetNeedUseShippingExcludeTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testGetNeedUseShippingExcludeTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testGetAlgorithm()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testGetShippingTaxClass()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testGetShippingPriceDisplayType()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testShippingPriceIncludesTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testSetShippingPriceIncludeTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplayFullSummary()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplayZeroTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplayTaxColumn()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplayCartPricesInclTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplayCartPricesExclTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplayCartPricesBoth()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplayCartSubtotalInclTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplayCartSubtotalExclTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplayCartSubtotalBoth()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplayCartShippingInclTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplayCartShippingExclTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplayCartShippingBoth()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplayCartDiscountInclTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplayCartDiscountExclTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplayCartDiscountBoth()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplayCartTaxWithGrandTotal()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplayCartFullSummary()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplayCartZeroTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplaySalesPricesInclTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplaySalesPricesExclTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplaySalesPricesBoth()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplaySalesSubtotalInclTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplaySalesSubtotalExclTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplaySalesSubtotalBoth()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplaySalesShippingInclTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplaySalesShippingExclTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplaySalesShippingBoth()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplaySalesDiscountInclTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplaySalesDiscountExclTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplaySalesDiscountBoth()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplaySalesTaxWithGrandTotal()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplaySalesFullSummary()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testDisplaySalesZeroTax()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testCheckDisplaySettings()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
+    }
+
+    /**
+     * @todo
+     */
+    public function testCheckDiscountSettings()
+    {
+        $this->markTestIncomplete('This test has not been implemented yet.');
     }
 }
