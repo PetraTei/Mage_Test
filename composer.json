@@ -3,10 +3,19 @@
     "type": "magento-module",
     "description": "Test framework and test suite for Magento",
     "homepage": "http://www.magetest.org/",
+    "require-dev": {
+    "mageplus/magetest": "dev-master"
+},
     "require": {
         "magento-hackathon/magento-composer-installer": "dev-master",
         "phpunit/phpunit": "3.7.*"
     },
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/mageplus/Mage_Test"
+    }
+],
     "authors":[
         {
             "name":"Lee Bolding",
